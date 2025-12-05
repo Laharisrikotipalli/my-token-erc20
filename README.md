@@ -1,11 +1,11 @@
 ## 🌟 MyToken – ERC-20 Token Project
-📌 Overview
+# 📌 Overview
 
 MyToken is a fully functional ERC-20 token implemented in Solidity 0.8.x.
 It includes all required features such as transfers, approvals, allowances, and event logging.
 The contract is written using best practices, safe arithmetic, and defensive input validation.
 
-📄 Token Details
+# 📄 Token Details
 Property	Value (example)
 Name	My Token
 Symbol	MTK
@@ -14,7 +14,7 @@ Total Supply	1000 × 10¹⁸
 
 You may update the values above based on your deployment.
 
-🔎 What is an ERC-20 Token?
+# 🔎 What is an ERC-20 Token?
 
 ERC-20 is a widely-used Ethereum token standard that defines:
 
@@ -44,7 +44,7 @@ Transfer
 
 Approval
 
-⚙️ Implemented Features
+# ⚙️ Implemented Features
 
 ✔ Complete ERC-20 functionality
 ✔ Safe supply initialization with overflow protection
@@ -54,7 +54,7 @@ Approval
 ✔ Increase/decrease allowance
 ✔ Fully tested using RemixIDE
 
-🚀 Deployment Instructions (RemixIDE)
+# 🚀 Deployment Instructions (RemixIDE)
 
 Open https://remix.ethereum.org
 
@@ -97,7 +97,7 @@ approve(address,uint256)
 
 transferFrom(address,address,uint256)
 
-🧪 Usage Examples
+# 🧪 Usage Examples
 ✔ Check your balance
 balanceOf(0xYourAddress)
 
@@ -110,7 +110,7 @@ approve(0xSpender, 500)
 ✔ Delegated transfer
 transferFrom(0xSender, 0xReceiver, 200)
 
-🧪 Testing Scenarios & Results
+# 🧪 Testing Scenarios & Results
 1️⃣ Successful Compilation
 
 Contract compiles with 0 errors using Solidity 0.8.x.
@@ -147,7 +147,7 @@ allowance decreased
 
 Approval event emitted
 
-🎓 What I Learned
+# 🎓 What I Learned
 
 How ERC-20 tokens work internally
 
