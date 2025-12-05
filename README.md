@@ -1,4 +1,4 @@
-🌟 MyToken – ERC-20 Token Project
+## 🌟 MyToken – ERC-20 Token Project
 📌 Overview
 
 MyToken is a fully functional ERC-20 token implemented in Solidity 0.8.x.
